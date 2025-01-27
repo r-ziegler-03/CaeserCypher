@@ -28,10 +28,10 @@ class Program
                     Console.WriteLine("Invalid input. Please enter a valid integer.");
             }
 
-            //string encoded = CaesarCipher.Encode(input, shift);
-            //Console.WriteLine($"Encoded string: {encoded}");
-            //string decoded = CaesarCipher.Decode(encoded, shift);
-           // Console.WriteLine($"Decoded string: {decoded}");
+            string encoded = CaesarCypher.Encode(input, shift);
+            Console.WriteLine($"Encoded string: {encoded}");
+            string decoded = CaesarCypher.Decode(encoded, shift);
+            Console.WriteLine($"Decoded string: {decoded}");
         }
     }
 }

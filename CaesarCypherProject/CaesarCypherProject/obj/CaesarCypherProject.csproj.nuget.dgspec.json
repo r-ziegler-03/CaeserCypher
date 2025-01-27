@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj": {}
+    "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj": {}
   },
   "projects": {
-    "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj": {
+    "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj",
+        "projectUniqueName": "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj",
         "projectName": "CaesarCypherProject",
-        "projectPath": "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj",
-        "packagesPath": "/Users/alexcannizzaro/.nuget/packages/",
-        "outputPath": "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/obj/",
+        "projectPath": "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj",
+        "packagesPath": "/Users/rossziegler/.nuget/packages/",
+        "outputPath": "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexcannizzaro/.nuget/NuGet/NuGet.Config"
+          "/Users/rossziegler/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/alexcannizzaro/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/rossziegler/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

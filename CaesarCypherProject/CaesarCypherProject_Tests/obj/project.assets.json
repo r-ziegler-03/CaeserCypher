@@ -5524,19 +5524,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/alexcannizzaro/.nuget/packages/": {}
+    "/Users/rossziegler/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject_Tests/CaesarCypherProject_Tests.csproj",
+      "projectUniqueName": "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject_Tests/CaesarCypherProject_Tests.csproj",
       "projectName": "CaesarCypherProject_Tests",
-      "projectPath": "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject_Tests/CaesarCypherProject_Tests.csproj",
-      "packagesPath": "/Users/alexcannizzaro/.nuget/packages/",
-      "outputPath": "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject_Tests/obj/",
+      "projectPath": "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject_Tests/CaesarCypherProject_Tests.csproj",
+      "packagesPath": "/Users/rossziegler/.nuget/packages/",
+      "outputPath": "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject_Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/alexcannizzaro/.nuget/NuGet/NuGet.Config"
+        "/Users/rossziegler/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5548,8 +5548,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj": {
-              "projectPath": "/Users/alexcannizzaro/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj"
+            "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj": {
+              "projectPath": "/Users/rossziegler/github/CaeserCypher/CaesarCypherProject/CaesarCypherProject/CaesarCypherProject.csproj"
             }
           }
         }
@@ -5602,7 +5602,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/alexcannizzaro/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/rossziegler/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
