@@ -3,7 +3,7 @@ using CaesarCypherProject;
 public class UnitTest1
 {
     [Theory]
-    [InlineData("sandie", 4, "werhmi")]
+    [InlineData("Sandie", 4, "Werhmi")]
     public void Encode_Test(string message, int shift, string expectedMessage)
     { 
         string encodedMessage = CaesarCypher.Encode(message,shift); 
