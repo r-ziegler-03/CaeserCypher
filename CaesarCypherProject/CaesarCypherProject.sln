@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCypherProject", "CaesarCypherProject\CaesarCypherProject.csproj", "{3F05FAA7-9B76-48F7-9838-61BE1BBA9902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCypherProject_Tests", "CaesarCypherProject_Tests\CaesarCypherProject_Tests.csproj", "{7EE5E5E9-4543-4F0B-8917-8403FE701DAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F05FAA7-9B76-48F7-9838-61BE1BBA9902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F05FAA7-9B76-48F7-9838-61BE1BBA9902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F05FAA7-9B76-48F7-9838-61BE1BBA9902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F05FAA7-9B76-48F7-9838-61BE1BBA9902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE5E5E9-4543-4F0B-8917-8403FE701DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE5E5E9-4543-4F0B-8917-8403FE701DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE5E5E9-4543-4F0B-8917-8403FE701DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE5E5E9-4543-4F0B-8917-8403FE701DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
