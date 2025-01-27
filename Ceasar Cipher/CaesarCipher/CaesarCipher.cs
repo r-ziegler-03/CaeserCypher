@@ -4,8 +4,12 @@ namespace CaesarCipher;
 
 public class CaesarCipher
 {
-    public static string Encode(string message, int shift)
+    //global varibale for shift so that we can use it for decode method as well
+    int shift; 
+    
+    public static string Encode(string message, int shiftValue)
     {
+        shift = shiftValue;
         //string of the alphabet
         string alphabet = "abcdefghijklmnopqrstuvwxyz";
         //variable to store the encoded message
@@ -18,7 +22,7 @@ public class CaesarCipher
             if (alphabet.Contains(letter))
             {
                 //get the position of the shifted letter
-                int shiftPos = (alphabet.IndexOf(letter) + shift) % 26;
+                int shiftPos = (alphabet.IndexOf(letter) + shiftValue) % 26;
                 //add that letter to the new message
                 newMessage += alphabet[shiftPos];
             }
@@ -32,5 +36,8 @@ public class CaesarCipher
         //return the new message
         return newMessage;
     }
-    public static string Decode(string message, int shift) => Encode(message, 26 - shift);
+    
+    public static string Decode(string message, int shiftValue) {
+        Encode(message, 26 - shift);
+    }
 }
