@@ -1,30 +1,35 @@
 ﻿using System.Text;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace CaesarCipher;
 
 public class CaesarCipher
 {
-    //global varibale for shift so that we can use it for decode method as well
-    int shift; 
-    
-    public static string Encode(string message, int shiftValue)
+    public static string Encode(string message, int shift)
     {
-        shift = shiftValue;
         //string of the alphabet
         string alphabet = "abcdefghijklmnopqrstuvwxyz";
+        string capAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         //variable to store the encoded message
         string newMessage = "";
 
         //loops through each letter in the message
-        foreach (char letter in message.ToLower())
+        foreach (char letter in message)
         {
             //if the letter is in the alphabet..
             if (alphabet.Contains(letter))
             {
                 //get the position of the shifted letter
-                int shiftPos = (alphabet.IndexOf(letter) + shiftValue) % 26;
+                int shiftPos = (alphabet.IndexOf(letter) + shift) % 26;
                 //add that letter to the new message
                 newMessage += alphabet[shiftPos];
+            }
+            else if (capAlphabet.Contains(letter))
+            {
+                int shiftPos = (capAlphabet.IndexOf(letter) + shift) % 26;
+                //add that letter to the new message
+                newMessage += capAlphabet[shiftPos];
             }
             //if it isn't in the alphabet
             else
@@ -36,8 +41,6 @@ public class CaesarCipher
         //return the new message
         return newMessage;
     }
-    
-    public static string Decode(string message, int shiftValue) {
-        Encode(message, 26 - shift);
-    }
+
+    public static string Decode(string message, int shift) => Encode(message, 26 - shift);
 }
