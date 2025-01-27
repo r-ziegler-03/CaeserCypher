@@ -13,7 +13,7 @@ public class CaesarCypher
         //loops through each letter in the message
         foreach (char letter in message)
         {
-            //if the letter is in the alphabet..
+            //if the letter is in the alphabet
             if (alphabet.Contains(letter))
             {
                 //get the position of the shifted letter
@@ -30,7 +30,7 @@ public class CaesarCypher
             //if it isn't in the alphabet
             else
             {
-                //dont shift it and just add it to the message 
+                //don't shift it and just add it to the message 
                 newMessage += letter;
             }
         }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaesarCypherProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e69adaf2a9bf0b5bb699ed7e193be0328443fe45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0ad74bfcda16c6a76f9cb20a19ce9b95a7ec3a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaesarCypherProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaesarCypherProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

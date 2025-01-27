@@ -1023,10 +1023,7 @@
       "xunit.runner.visualstudio/2.5.3": {},
       "CaesarCypherProject/1.0.0": {
         "runtime": {
-          "CaesarCypherProject.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CaesarCypherProject.dll": {}
         }
       }
     }
