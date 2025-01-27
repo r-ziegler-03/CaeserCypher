@@ -32,4 +32,7 @@ public class CaesarCipher
         //return the new message
         return newMessage;
     }
+
+    
+    public static string Decode(string message, int shift) => Encode(message, 26 - shift);
 }
