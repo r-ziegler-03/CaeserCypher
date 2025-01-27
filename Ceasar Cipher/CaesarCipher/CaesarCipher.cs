@@ -12,13 +12,13 @@ public class CaesarCipher
         string newMessage = "";
 
         //loops through each letter in the message
-        foreach (char letter in message)
+        foreach (char letter in message.ToLower())
         {
             //if the letter is in the alphabet..
             if (alphabet.Contains(letter))
             {
                 //get the position of the shifted letter
-                int shiftPos = alphabet.IndexOf(letter) + shift;
+                int shiftPos = (alphabet.IndexOf(letter) + shift) % 26;
                 //add that letter to the new message
                 newMessage += alphabet[shiftPos];
             }
@@ -32,4 +32,5 @@ public class CaesarCipher
         //return the new message
         return newMessage;
     }
+    public static string Decode(string message, int shift) => Encode(message, 26 - shift);
 }

@@ -33,8 +33,8 @@ class Program
 
             string encoded = CaesarCipher.Encode(input, shift);
             Console.WriteLine($"Encoded string: {encoded}");
-            //string decoded = CaesarCipher.Decode(encoded, shift);
-            //Console.WriteLine($"Decoded string: {decoded}");
+            string decoded = CaesarCipher.Decode(encoded, shift);
+            Console.WriteLine($"Decoded string: {decoded}");
         }
     }
 }
